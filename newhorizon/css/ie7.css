@@ -1,0 +1,14 @@
+/* $Id: ie7.css,v 1.1 2009/10/21 13:47:39 mcrittenden Exp $ */
+
+/* FIX TABS FOR IE7 */
+ul.primary li a:hover {
+	cursor:pointer;
+	color:#555;
+	text-decoration:none;
+}
+ul.secondary li a:hover{
+	cursor:pointer;
+	color:#555;
+	text-decoration:none;
+}
+

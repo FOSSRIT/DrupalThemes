@@ -1,0 +1,29 @@
+name = Boldy
+description = A conversion of the wordpress theme by Site5.
+screenshot = screenshot.png
+core = 6.x
+engine = phptemplate
+
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/nivo-slider.css
+stylesheets[print][] = css/print.css
+
+scripts[] = js/jquery.autofill.js
+scripts[] = js/custom.js
+
+regions[nav_bar] = Navigation bar
+regions[slider] = Slider
+regions[home_boxes] = Home boxes
+regions[right] = Right sidebar
+regions[content_top] = Content top
+regions[content] = Content
+regions[content_bottom] = Content bottom
+regions[footer_actions] = Footer Actions
+regions[footer] = Footer
+
+; Information added by drupal.org packaging script on 2011-10-31
+version = "6.x-1.1"
+core = "6.x"
+project = "boldy"
+datestamp = "1320026429"
+
