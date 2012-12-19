@@ -1,1 +1,6 @@
-/* This file will hold styles that are loaded using the same media query as the wide grid. */
+/**
+ * fullscreen, tv+
+ */
+@media only screen and (min-width: 1024px) {
+    body:after {content: "Desktop - 1024 and up"; background-color: hsla(360,60%,40%,0.7); }
+}
