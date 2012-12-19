@@ -1,6 +1,16 @@
 /**
  * tablet
  */
-@media only screen and (min-width: 480px) {
-    body:after {content: "Tablet - 480 to 768px"; background-color: hsla(180,60%,40%,0.7); }
+
+body:after {
+    content: "Tablet - 480 to 768px"; background-color: hsla(180,60%,40%,0.7);
 }
+
+/* id="region-menu" */
+#region-menu {
+  margin-top: 2em;
+}
+  /* navigation */
+  #region-menu nav.navigation{
+    direction: rtl;
+  }
