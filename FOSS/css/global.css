@@ -2,7 +2,7 @@
 TABLE OF CONTENTS
 ________________________________________________________________________
 
-$TYPOGRAPHY		-		font family, h1...h6
+$TYPOGRAPHY   -   font family, h1...h6
 $HEADER
 $FOOTER
 */
@@ -29,9 +29,9 @@ $FOOTER
   font-style: normal;
 }
 html {
-	font-family:	'Jura', Verdana, Arial, sans-serif;
+  font-family:  'Jura', Verdana, Arial, sans-serif;
   font-size: 100%;
-	-webkit-font-smoothing: subpixel-antialiased; 
+  -webkit-font-smoothing: subpixel-antialiased; 
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Jura";
@@ -147,6 +147,7 @@ ________________________________________________________________________*/
 /* $SPONSORS */
 #section-footer .sponsors .block-imageblock {
   float: left;
+  text-align: center;
   margin-right: 2em;
   -webkit-filter: grayscale(50%);  
   -webkit-transition: all 0.2s ease-out;
@@ -154,7 +155,6 @@ ________________________________________________________________________*/
          -o-transition: all 0.2s ease-out;
               transition: all 0.2s ease-out;
 }
-
 #section-footer .sponsors .block-imageblock:hover{
   -webkit-filter: none; 
   -webkit-transition: all 0.2s ease-out;
@@ -165,7 +165,9 @@ ________________________________________________________________________*/
 #section-footer .sponsors .block-imageblock img {
   max-height: 40px;
 }
-
+#section-footer .sponsors .block-imageblock h2.block-title{
+  font-size: 14px;
+}
 
 
 
