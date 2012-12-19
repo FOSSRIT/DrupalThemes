@@ -98,21 +98,26 @@ h6.site-slogan {
     float: none;
   }
 
-  /* id="zone-menu" */
-  #zone-menu {
-    margin-top: 1em;
+  /* id="region-menu" */
+  #region-menu {
+    margin-top: 2em;
   }
-  #main-menu {
-    padding: 1em 0 0;
-    text-transform: uppercase;
-  }
-  #main-menu a {
-    text-decoration: none;
-  }
-  #main-menu a:hover {
-    color: #fff;
-    border-bottom: 2px solid green;
-  }
+    /* navigation */
+    #region-menu nav.navigation{
+      direction: rtl;
+    }
+      /* main menu */
+      #main-menu {
+        padding: 1em 0 0;
+        text-transform: uppercase;
+      }
+      #main-menu a {
+        text-decoration: none;
+      }
+      #main-menu a:hover {
+        color: #fff;
+        border-bottom: 2px solid green;
+      }
 
 /* ________________________________________________________________________ */
 
