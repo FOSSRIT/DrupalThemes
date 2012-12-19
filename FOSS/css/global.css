@@ -1,36 +1,11 @@
- 
-/*#toolbar {display: none;}*/
-
-/* 
-image slider:
-https://drupal.org/project/content_slider
-*/
-
-/**
- * global.css
- *   default styles/mobile first
- */
-
 /*
 TABLE OF CONTENTS
 ________________________________________________________________________
 
-$RESET					-		basic CSS reset
 $TYPOGRAPHY		-		font family, h1...h6
-$ELEMENTS			-		styling basic elements, <header>, <footer>, <a>
-$OBJECTS				-		
-$COMPONENTS		-		container objects, buttons
-$CLASSES				-		base classes
-$STYLE					-		other styles
-$MQ							-		media queries
-
+$HEADER
+$FOOTER
 */
-
-
-
-/* $RESET */
-/* ________________________________________________________________________ */
-/* done in the base Omega theme (based on Eric Meyer's reset) */
 
 
 
@@ -146,12 +121,16 @@ h6.site-slogan {
 
 
 
-/**
- * FOOTER STYLES
- */
+/* $FOOTER
+________________________________________________________________________*/
+#section-footer {
+  background: #333;
+  color: #eee;
+  font-family: "Jura", Verdana, sans-serif;
+  font-size: 110%;
+}
 
 /* $SPONSORS */
-/* ________________________________________________________________________*/
 #section-footer .sponsors .block-imageblock {
   float: left;
   margin-right: 2em;
@@ -185,14 +164,7 @@ h6.site-slogan {
   color: #778899;
 }
 
-/* $FOOTER
-________________________________________________________________________*/
-#section-footer {
-  background: #333;
-  color: #eee;
-  font-family: "Jura", Verdana, sans-serif;
-  font-size: 110%;
-}
+
 
 
 
