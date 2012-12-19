@@ -92,24 +92,28 @@ h6.site-slogan {
     bottom: 0.75em;
   }
   #zone-branding h1.site-name {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   #zone-branding hgroup.site-name-slogan {
     float: none;
   }
 
-    /* main menu */
-    #main-menu {
-      padding: 1em 0 0;
-      text-transform: uppercase;
+    /* navigation */
+    #region-menu nav.navigation{
+      font-size: 1.2em;
     }
-    #main-menu a {
-      text-decoration: none;
-    }
-    #main-menu a:hover {
-      color: #fff;
-      border-bottom: 2px solid green;
-    }
+      /* main menu */
+      #main-menu {
+        padding: 1em 0 0;
+        text-transform: uppercase;
+      }
+      #main-menu a {
+        text-decoration: none;
+      }
+      #main-menu a:hover {
+        color: #fff;
+        border-bottom: 2px solid green;
+      }
 
 /* ________________________________________________________________________ */
 
