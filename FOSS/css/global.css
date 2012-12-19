@@ -154,6 +154,7 @@ h6.site-slogan {
 /* ________________________________________________________________________*/
 #section-footer .sponsors .block-imageblock {
   float: left;
+  margin-right: 2em;
   -webkit-filter: grayscale(50%);  
   -webkit-transition: all 0.2s ease-out;
       -moz-transition: all 0.2s ease-out;
@@ -168,7 +169,9 @@ h6.site-slogan {
            -o-transition: all 0.2s ease-out;
                 transition: all 0.2s ease-out;
 }
-
+#section-footer .sponsors .block-imageblock img {
+  max-height: 40px;
+}
 #block-block-11{
   text-align: center;
 }
