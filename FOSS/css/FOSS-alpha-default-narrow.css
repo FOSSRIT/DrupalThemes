@@ -1,32 +1,6 @@
-/* This file will hold styles that are loaded using the same media query as the narrow grid. */
-/* If you are using the default media queries provided by Omega, these styles will also
- *  apply to the normal and widescreen layouts. You may override these styles in the normal 
- *  and widescreen CSS files as appropriate. */
-
-
-/* $SPONSORS
-
-#region-postscript-fourth
- ________________________________________________________________________*/ 
-
-/* 
-#region-postscript-fourth div{
-    /* to have the wrapper divs of the sponsor image blocks display collapse next to each other */
-    display: inline-block;
-}
-
-#region-postscript-fourth div.block-image, #region-postscript-fourth div.block-body {
-    /* over-ride the above rule, restructure the div and have things align in the center */
-    display: block;
-    text-align: center;
-}
-
-#region-postscript-fourth div.block-image {
-    padding: 0 0 1em;
-}
-
-#region-postscript-fourth div.content {
-    /* set the max-settings for the sponsors area */
-    max-width: 200px;
- }
+/**
+ * tablet
  */
+@media only screen and (min-width: 480px) {
+    body:after {content: "Tablet - 480 to 768px"; background-color: hsla(180,60%,40%,0.7); }
+}
