@@ -38,10 +38,12 @@ $MQ							-		media queries
 /* ________________________________________________________________________ */
 @import url("http://openfontlibrary.org/face/jura");
 
-@font-face{
-font-family: 'socialbats';
-src: url('http://openfontlibrary.org/face/socialbats'),
-     url('http://openfontlibrary.org/face/socialbats'); /* IE9+ */
+@font-face {
+  font-family: "SocialBats";
+  src: url('../font/socialbats-webfont.eot');
+  src: url('../font/socialbats-webfont.eot?#iefix') format('eot'), url('../font/socialbats-webfont.woff') format('woff'), url('../font/socialbats-webfont.ttf') format('truetype'), url('../font/socialbats-webfont.svg#FontAwesome') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
@@ -53,18 +55,38 @@ src: url('http://openfontlibrary.org/face/socialbats'),
 }
 html {
 	font-family:	'Jura', Verdana, Arial, sans-serif;
+  font-size: 100%;
 	-webkit-font-smoothing: subpixel-antialiased; 
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: "Jura";
 }
 
-html:before {
-  /*content: "in global.css. this will disappear";*/
+h2.site-name {
+  font-size: 1.5em;
 }
-
-
-
+h6.site-slogan {
+  font-size: 1em;
+}
+/* Traditional scale */
+/*
+6  = 0.375em
+7  = 0.4375em
+8  = 0.5em
+9  = 0.5625em
+10 = 0.625em
+11 = 0.6875em
+12 = 0.75em
+14 = 0.875em
+16 = 1em
+18 = 1.125em
+21 = 1.3125em
+24 = 1.5em
+36 = 2.25em
+48 = 3em
+60 = 3.75em
+72 = 4.5em
+*/
 
 
 
@@ -81,9 +103,6 @@ html:before {
 #section-header a {
   color: inherit;
 }
-.breadcrumb{
-  display: none;
-}
 
   /* id="zone-branding" */
   /* logo / h1 / tagline */
@@ -94,10 +113,11 @@ html:before {
   #zone-branding .logo-img img{
     height: 50px;
     width: 45px;
+    position: relative;
+    bottom: 0.75em;
   }
-  #zone-branding h2.site-name {
+  #zone-branding h1.site-name {
     font-size: 2em;
-    color: #FFF;
   }
   #zone-branding hgroup.site-name-slogan {
     float: none;
@@ -105,7 +125,7 @@ html:before {
 
   /* id="zone-menu" */
   #zone-menu {
-    margin: 1em 0 0;
+    margin-top: 1em;
   }
   #main-menu {
     padding: 1em 0 0;
@@ -113,24 +133,12 @@ html:before {
   }
   #main-menu a {
     text-decoration: none;
-    color: #FFF;
   }
   #main-menu a:hover {
     color: #fff;
     border-bottom: 2px solid green;
   }
-  .navigation{
-    text-align: right;
-  }
- #social{
-  color: #000; 
-  float: right; 
-  margin-top: 1%;
-  margin-right: 30%;
-  font-family: 'socialbats'; 
-    font-weight: normal; 
-    font-style: normal;  
-}
+
 /* ________________________________________________________________________ */
 
 
@@ -237,9 +245,14 @@ BarCamp Roc
     max-width: 300px;
     min-width: 300px;
 }
-
-.region-content-inner{
-   border-right: 2px solid #AAA;
+#social{
+  font-family: "SocialBats";
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+}
+#social:hover{
+  border-bottom: 2px solid green;
 }
 
 
