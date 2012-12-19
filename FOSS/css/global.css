@@ -117,6 +117,20 @@ h6.site-slogan {
 /* ________________________________________________________________________ */
 
 
+/* $Social Icons
+________________________________________________________________________*/
+#block-block-11{
+  text-align: center;
+}
+#social{
+  font-family: "SocialBats";
+  color: #000;
+  font-size: 30px;
+  text-decoration: none;
+}
+#social:hover{
+  color: #778899;
+}
 
 
 
@@ -151,19 +165,6 @@ ________________________________________________________________________*/
 #section-footer .sponsors .block-imageblock img {
   max-height: 40px;
 }
-#block-block-11{
-  text-align: center;
-}
-#social{
-  font-family: "SocialBats";
-  color: #000;
-  font-size: 30px;
-  text-decoration: none;
-}
-#social:hover{
-  color: #778899;
-}
-
 
 
 
