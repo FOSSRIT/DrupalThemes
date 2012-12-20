@@ -12,12 +12,12 @@ ________________________________________________________________________*/
     }
     #node-page-329{
     	float: left;
-    	padding-right: 1.85%;
+    	padding-right: 5%;
     }
     @-moz-document url-prefix() { 
   		#node-page-329{
      			float: left;
-     			padding-right: 3.8%;;
+     			padding-right: 5%;
   		}
 	}
 }
