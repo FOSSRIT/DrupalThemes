@@ -16,6 +16,11 @@ ________________________________________________________________________*/
     	width: 70%;
     	padding-right: 5%;
     }
+    #aggregator{
+     	float: left;
+     	width: 70%;
+     	padding-right: 5%;
+     }
 }
 
 /* id="region-menu" */

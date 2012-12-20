@@ -9,17 +9,20 @@ ________________________________________________________________________*/
     #node-page-135{
      	float: left;
      	padding-right: 5%;
-	}
+    }
     #node-page-329{
      	float: left;
      	padding-right: 5%;
-	}
-	@-moz-document url-prefix() { 
+    }
+    @-moz-document url-prefix() { 
   		#node-page-329{
      			float: left;
-     			padding-right: 5%;;
+     			padding-right: 5%;
   		}
 	}
-
-
+     #aggregator{
+     	float: left;
+     	width: 70%;
+     	padding-right: 5%;
+     }
 }
