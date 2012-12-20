@@ -10,5 +10,17 @@ ________________________________________________________________________*/
      	float: left;
      	padding-right: 5%;
 	}
+    #node-page-329{
+     	float: left;
+     	padding-right: 16.5%;
+	}
+
+	@-moz-document url-prefix() { 
+  		#node-page-329{
+     			float: left;
+     			padding-right: 18.05%;;
+  		}
+	}
+
 
 }
