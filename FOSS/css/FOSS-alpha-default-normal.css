@@ -9,5 +9,15 @@ ________________________________________________________________________*/
     #node-page-135{
      	float: left;
      	padding-right: 5%;
+    }
+    #node-page-329{
+    	float: left;
+    	padding-right: 1.85%;
+    }
+    @-moz-document url-prefix() { 
+  		#node-page-329{
+     			float: left;
+     			padding-right: 3.8%;;
+  		}
 	}
 }
