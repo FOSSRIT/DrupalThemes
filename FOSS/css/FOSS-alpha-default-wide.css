@@ -3,4 +3,12 @@
  */
 @media only screen and (min-width: 1024px) {
     body:after {content: "Desktop - 1024 and up"; background-color: hsla(360,60%,40%,0.7); }
+
+/* $About Content
+________________________________________________________________________*/
+    #node-page-135{
+     	float: left;
+     	padding-right: 20%;
+	}
+
 }
