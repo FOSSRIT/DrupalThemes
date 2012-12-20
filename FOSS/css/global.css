@@ -179,8 +179,14 @@ ________________________________________________________________________*/
   font-size: 14px;
 }
 
-
-
+/* COPYRIGHT */
+#section-footer .copyright {
+  max-height: 1.5em;
+  color: #aaa;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 1em 0 0;
+}
 
 /* $CSS3
 ________________________________________________________________________*/
