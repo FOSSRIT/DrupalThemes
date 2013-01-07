@@ -34,9 +34,13 @@ regions[postscript_second] = Postscript Second
 regions[postscript_third] = Postscript Third
 regions[postscript_fourth] = Postscript Fourth
 
+; FOSS REGIONS
+
 regions[footer_first] = Footer Bio
 regions[footer_second] = Sponsors
 regions[footer_third] = Copyright
+
+regions[content] = FOSS Members
 
 ; ZONES
 
