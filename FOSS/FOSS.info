@@ -39,8 +39,7 @@ regions[postscript_fourth] = Postscript Fourth
 regions[footer_first] = Footer Bio
 regions[footer_second] = Sponsors
 regions[footer_third] = Copyright
-
-regions[content] = FOSS Members
+regions[content_slider] = Slider
 
 ; ZONES
 
