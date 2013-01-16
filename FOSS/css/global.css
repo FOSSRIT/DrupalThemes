@@ -118,6 +118,114 @@ h6.site-slogan {
 /* ________________________________________________________________________ */
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CONTENT */
+/* ________________________________________________________________________ */
+/* SLIDER */
+/* sets grey bkgd for slider */
+.zone-preface-wrapper {
+  background: #ccc;
+}
+/*  */
+#views_slideshow_cycle_teaser_section_featured_slider-block {
+  width: auto !important;
+}
+/*.foss-slider*/
+.foss-slider img {
+  width: 100%;
+  height: auto;
+}
+
+
+/* styling content area */
+.zone-content-wrapper {
+  padding: 1em;
+}
+/* styling individual blogs */
+article.node-blog {
+  max-width: 35em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ________________________________________________________________________ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* $Social Icons
 ________________________________________________________________________*/
 #block-block-11{
