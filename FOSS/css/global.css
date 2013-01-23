@@ -78,6 +78,9 @@ h6.site-slogan {
 #section-header a {
   color: inherit;
 }
+#zone-preface-wrapper{
+  background: #DCDCDC;
+}
 
   /* id="zone-branding" */
   /* logo / h1 / tagline */
@@ -115,115 +118,11 @@ h6.site-slogan {
         border-bottom: 2px solid green;
       }
 
-/* ________________________________________________________________________ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* CONTENT */
-/* ________________________________________________________________________ */
-/* SLIDER */
-/* sets grey bkgd for slider */
-.zone-preface-wrapper {
-  background: #ccc;
-}
-/*  */
-#views_slideshow_cycle_teaser_section_featured_slider-block {
-  width: auto !important;
-}
-/*.foss-slider*/
-.foss-slider img {
-  width: 100%;
-  height: auto;
-}
-
-
-/* styling content area */
-.zone-content-wrapper {
-  padding: 1em;
-}
-/* styling individual blogs */
-article.node-blog {
-  max-width: 35em;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ________________________________________________________________________ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Recent blog posts, and second region sidebar
+ ________________________________________________________________________ */
+ .region-sidebar-second-inner{
+  margin-top: 8%;
+ }
 
 
 /* $Social Icons
@@ -238,7 +137,7 @@ ________________________________________________________________________*/
   text-decoration: none;
 }
 #social:hover{
-  color: #778899;
+  color: #6cd73d;
 }
 
 /* $FOOTER
@@ -317,6 +216,26 @@ body:after {
  */
 @media only screen and (min-width: 320px) {
     body:after {content: "Mobile - 320 to 480px"; background-color: hsla(90,60%,40%,0.7); }
+    
+    /* $Featured Slider
+________________________________________________________________________*/
+    #block-views-featured-slider-block img{
+        width: 300px;
+        height: 100px;
+    }
+
+/* $Featured Events Block
+________________________________________________________________________*/
+    #block-views-featured-events-block{
+      border-top: 1px solid #000;
+    }
+
+/* $Featured Projects Block
+________________________________________________________________________*/
+    #block-views-featured-projects-block{
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000;
+      padding-bottom: 40px;
 }
 
 
