@@ -4,6 +4,12 @@
 @media only screen and (min-width: 768px) {
     body:after {content: "Netbook - 768 to 1024px"; background-color: hsla(270,60%,40%,0.7); }
 
+
+/* header bar */
+#section-header {
+  padding-bottom: 0;
+}
+
 /* $About Content
 ________________________________________________________________________*/
     #node-page-135{
@@ -24,6 +30,14 @@ ________________________________________________________________________*/
   		}
 	}
 
+/* $Projects Content
+________________________________________________________________________*/
+    .view-projects{
+        float: left;
+        width: 100%;
+        padding-right: 5%;
+    }
+
 /* $News Content
 ________________________________________________________________________*/
     #aggregator{
@@ -39,4 +53,31 @@ ________________________________________________________________________*/
      	width: 70%;
      	padding-right: 5%;
      }
+
+/* $Featured Slider
+________________________________________________________________________*/
+    #block-views-featured-slider-block img{
+        width: 800px;
+        height: 400px;
+    }
+
+/* $Featured Events Block
+________________________________________________________________________*/
+    #block-views-featured-events-block{
+        float: left;
+        width: 70%;
+        padding-right: 5%;
+        border-top: 1px solid #000;
+     }
+
+/* $Featured Projects Block
+________________________________________________________________________*/
+    #block-views-featured-projects-block{
+        float: left;
+        width: 70%;
+        padding-right: 5%;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        padding-bottom: 40px;
+    }
 }
