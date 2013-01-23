@@ -96,6 +96,8 @@ h6.site-slogan {
   }
   #zone-branding h1.site-name {
     font-size: 1.5em;
+    text-shadow: 0px 1px 3px #000;
+    filter: dropshadow(color=#000, offx=0, offy=1);
   }
   #zone-branding hgroup.site-name-slogan {
     float: none;
