@@ -219,31 +219,67 @@ body:after {
  * mobile
  */
 @media only screen and (min-width: 320px) {
-    body:after {content: "Mobile - 320 to 480px"; background-color: hsla(90,60%,40%,0.7); }
-    
-    /* $Featured Slider
-________________________________________________________________________*/
-    #block-views-featured-slider-block img{
-        width: 300px;
-        height: 100px;
-    }
+    body:after {content: "Mobile - 320 to 480px"; background-color: hsla(90,60%,40%,0.4); }
+}    
 
-/* $Featured Events Block
-________________________________________________________________________*/
-    #block-views-featured-events-block{
-      border-top: 1px solid #000;
-    }
-
-/* $Featured Projects Block
-________________________________________________________________________*/
-    #block-views-featured-projects-block{
-      border-top: 1px solid #000;
-      border-bottom: 1px solid #000;
-      padding-bottom: 40px;
+/* $Featured Slider
+____________________________________________________________________*/
+#block-views-featured-slider-block img{
+  width: 300px;
+  height: 100px;
 }
 
+/* $Featured Events Block
+____________________________________________________________________*/
+#block-views-featured-events-block{
+  border-top: 1px solid #000;
+}
 
+/* $Featured Projects Block
+_____________________________________________________________________*/
+#block-views-featured-projects-block{
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding-bottom: 40px;
+}
 
+/* Events */
+#block-views-events-block {
+  margin-bottom: 4em;
+}
+
+/* FOSS Team Members */
+.node-foss-members {
+  max-width: 150px;
+  margin: 0 auto;
+}
+.node-foss-members .node-title {
+  font-size: 18px;
+  margin: 0 0 .75em;
+}
+.node-foss-members img {
+  width: 100%;
+  height: auto;
+}
+.view-foss-members .item-list ul li {
+  margin: 0 !important;
+}
+
+/* News aggregators */
+#aggregator {
+  padding: 2em 1em;
+}
+#aggregator .feed-item {
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 3.5em;
+}
+
+/* Research Page */
+#node-page-330 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
 
 
 
