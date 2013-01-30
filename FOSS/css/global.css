@@ -65,7 +65,13 @@ h6.site-slogan {
 
 
 
-
+/* Slider */
+/*#views_slideshow_cycle_teaser_section_featured_slider-block,*/
+/*#views_slideshow_cycle_teaser_section_featured_slider-block .views-slideshow-cycle-main-fram-row */
+/*{*/
+  /*width: 100% !important;*/
+  /*max-width: 960px !important;*/
+/*}*/
 
 /* $HEADER */
 /* ________________________________________________________________________ */
@@ -215,12 +221,7 @@ body:after {
     color: #fff;
 }
 
-/**
- * mobile
- */
-@media only screen and (min-width: 320px) {
-    body:after {content: "Mobile - 320 to 480px"; background-color: hsla(90,60%,40%,0.4); }
-}    
+
 
 /* $Featured Slider
 ____________________________________________________________________*/
@@ -262,7 +263,7 @@ _____________________________________________________________________*/
   height: auto;
 }
 .view-foss-members .item-list ul li {
-  margin: 0 !important;
+  margin-left: 0 !important;
 }
 
 /* News aggregators */
@@ -286,7 +287,12 @@ _____________________________________________________________________*/
 
 
 
-
+/**
+ * mobile
+ */
+@media only screen and (min-width: 320px) {
+  body:after {content: "Mobile - 320 to 480px"; background-color: hsla(90,60%,40%,0.4); }
+}
 
 /* $CREDITS
 ________________________________________________________________________*/
