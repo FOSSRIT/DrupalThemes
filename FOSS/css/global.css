@@ -230,6 +230,20 @@ ____________________________________________________________________*/
   height: 100px;
 }
 
+.views-field-field-slider-image{
+  z-index: 1;
+}
+
+.views-field-field-body{
+    z-index: 2;
+    margin-top: -200px;
+    color: #FFF;
+    height: 200px;
+    background: #000;
+    opacity: .6;
+    padding-left: 5%;
+}
+
 /* $Featured Events Block
 ____________________________________________________________________*/
 #block-views-featured-events-block{
@@ -292,6 +306,14 @@ _____________________________________________________________________*/
  */
 @media only screen and (min-width: 320px) {
   body:after {content: "Mobile - 320 to 480px"; background-color: hsla(90,60%,40%,0.4); }
+  
+  .views-field-field-slider-image{
+    z-index: 1;
+  }
+
+  .views-field-field-body{
+    display: none;
+  }
 }
 
 /* $CREDITS
