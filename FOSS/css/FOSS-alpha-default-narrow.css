@@ -2,49 +2,12 @@
  * tablet
  */
 @media only screen and (min-width: 480px) {
-  body:after {content: "Tablet - 480 to 768px"; background-color: hsla(180,60%,40%,0.7); }
-
-  /* $About Content */
-  #node-page-135{
-   	/*float: left;*/
-   	/*width: 70%;*/
-   	/*padding-right: 5%;*/
-	}
-
-  /* $Events Content */
-  #node-page-329{
-  	/*float: left;*/
-  	/*width: 70%;*/
-  	/*padding-right: 5%;*/
-  }
-
-  /* $Projects Content */
-  .view-projects{
-    /*float: left;*/
-    /*width: 100%;*/
-    /*padding-right: 5%;*/
-  }
-
-  /* $News Content */
-  #aggregator{
-   	/*float: left;*/
-   	/*width: 70%;*/
-   	/*padding-right: 5%;*/
-  }
-
-  /* $Research Content */
-  #node-page-330{
-   	/*float: left;*/
-   	/*width:70%;*/
-   	/*padding-right: 5%;*/
-  }
-
   /* $Featured Slider */
   #block-views-featured-slider-block img{
     width: 600px;
     height: 300px;
   }
-    .views-field-field-slider-image{
+  .views-field-field-slider-image{
     z-index: 1;
   }
 
@@ -61,17 +24,11 @@
 
   /* $Featured Events Block */
   #block-views-featured-events-block{
-    /*float: left;*/
-    /*width: 70%;*/
-    /*padding-right: 5%;*/
     border-top: 1px solid #000;
-   }
+  }
 
   /* $Featured Projects Block */
   #block-views-featured-projects-block{
-    /*float: left;*/
-    /*width: 70%;*/
-    /*padding-right: 5%;*/
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
     padding-bottom: 40px;
