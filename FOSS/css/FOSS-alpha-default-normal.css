@@ -2,7 +2,6 @@
  * netbook/small screen
  */
 @media only screen and (min-width: 768px) {
-  body:after {content: "Netbook - 768 to 1024px"; background-color: hsla(270,60%,40%,0.7); }
 
 
   /* header bar */
@@ -21,13 +20,10 @@
   	float: left;
   	padding-right: 5%;
   }
-  /*@-moz-document url-prefix() { */
-  /* ^ ^ ^ what is this? ^ ^ ^ */
 	#node-page-329{
 		float: left;
 		padding-right: 5%;
 	}
-  /*}*/
 
   /* $Projects Content */
   .view-projects{
@@ -73,4 +69,23 @@
     border-bottom: 1px solid #000;
     padding-bottom: 40px;
   }
+
+/* $Featured Events Block */
+    #block-views-featured-events-block{
+        float: left;
+        width: 80%;
+        padding-right: 5%;
+        border-top: 1px solid #000;
+     }
+
+/* $Featured Projects Block */
+    #block-views-featured-projects-block{
+        float: left;
+        width: 80%;
+        padding-right: 5%;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        padding-bottom: 40px;
+    }
+
 }
