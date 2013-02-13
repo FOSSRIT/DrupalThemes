@@ -5,7 +5,7 @@ This is the documentation for the FOSS theme to be implemented in Drupal 7.<br /
 The home page is consisted of four views, which had been set to show only preview content from nodes of corresponding content types.
 
 <h3>Views and their corresponding content type in paranthesis.</h3>
-		<strong>Featured Slider (Featured Slider)</strong>- This view is located in the header section
+<strong>Featured Slider (Featured Slider)</strong>- This view is located in the header section
 and will cycle through latest images uploaded. <br /> To upload/edit contents and images for Featured 
 Slider,one must simply navigate to  the admin navbar and go to "content/Create content/Featured Slider"
 uploading images and edit text. Navigate to "content" and look under column of Featured Slider to view 
