@@ -1,8 +1,7 @@
 <h1>FOSS Theme documentation</h1>
 This is the documentation for the FOSS theme to be implemented in Drupal 7.<br />
 <h2>Home Page</h2>
-The home page is consisted of four views, which had been set to show only preview content from nodes of corresponding content types.
-<h3>Views and their corresponding content type in paranthesis.</h3><br />
+The home page is consisted of four views, which had been set to show only preview content from nodes of corresponding content types.<br /><br />
 <strong>Featured Slider (Featured Slider)</strong>- This view is located in the header section
 and will cycle through latest images uploaded. <br /><br /> To upload/edit contents and images for Featured 
 Slider
