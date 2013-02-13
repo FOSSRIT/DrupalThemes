@@ -38,9 +38,10 @@ The Projects page is consisted of two views, Projects and <a href="#blogs">Recen
 <li>Include an image, if desired from upload button</li>
 </ol>
 <p>*note all changes made to any node in projects content type will show on the "Featured-Projects" slider and "Projects" grid.</p>
-
 <h2>News Page</h2>
 The News Feed page contains an aggregation of news feed and a view for <a href="#blogs">Recent Blog</a> posts.<br /><br />
 To upload/edit new content in the aggregator<br />
 <ol><li>In the admin navigation go to "Configuration/Web services/ Feed aggregator"to modify content. To create an item inside the aggregator go to "Configuration/Web services/ Feed aggregator/Add feed". </li>
-</ol>
+</ol><br /><br />
+<h2>Research Page</h2>
+The Research page contains just a static content type of page. To locate the static page to edit go to "Content" and look for the title "Research" under the content type of page.<br /><br />
