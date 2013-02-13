@@ -17,20 +17,20 @@ Slider
 <strong>Recent-Blogs (Blog entry)</strong>- This view is located in the right-side panel(region-sidebar-second). This view generates a list of teasers consisted of shortened field values from the oroginal node.<br /><br /> To upload/edit new content to be featured on the list, one would just simply create/edit the node under the content type of  <a href="#blogs">Blog entry</a><br /><br />
 <h2>Events Page</h2>
 The Events page is consisted of two views, Events and <a href="#blogs">Recent Blog</a> posts.<br /><br />
-<p>To modify the basic info about the events page, simply click on the edit tab in the content area and access to every piece of content below the grid will be available to modify.</p>
+<p>To modify the basic info about the events page, simply click on the edit tab located in the content area and you should have access to every piece of content below the grid to modify if you are a registered admin.</p>
 <strong>Events(Event)</strong>- This view generates the grid layout of teasers of the latest nodes under the content type of "Event"<br /><br /> <div id="events">To upload/edit new content</div>
-<ol><li>In the admin navigation go to "Content/Create Content/Event" to create new event node.  To modify an event node, go to "Content" tab and locate node title. *It may help if you set the filter to only search for event under the "type" drop down</li>
+<ol><li>In the admin navigation go to "Content/Create Content/Event" to create a new event node.  To modify an event node, go to the "Content" tab in the admin nav bar and locate node title. *It may help if you set the filter to only search for the content type of "Event"</li>
 <li>Give your node a meaningful title</li>
-<li>Add text the body(can be in any format in the drop down)</li>
-<li>Select group of event form the drop down menu</li>
-<li>Select the event type from drop down</li>
+<li>Add text to the body(can be in any format in the drop down)</li>
+<li>Select group of event from the drop down menu</li>
+<li>Select the event type from the drop down menu</li>
 <li>Include an image, if desired from upload button</li>
 </ol>
 <p>*note all changes made to any node in events content type will show on the "Featured-Events" slider and "Events" grid.</p>
 
 <h2>Projects Page</h2>
 The Projects page is consisted of two views, Projects and <a href="#blogs">Recent Blog</a> posts.<br /><br />
-<strong>Projects(Project)</strong>- This view generates the grid layout of teasers of the latest nodes under the content type of "Project"<br /><br /> <div id="events">To upload/edit new content</div>
+<strong>Projects(Project)</strong>- This view generates the grid layout of teasers of the latest nodes under the content type of "Project"<br /><br /> <div id="projects">To upload/edit new content</div>
 <ol><li>In the admin navigation go to "Content/Create Content/Project" to create new project node.  To modify a project node, go to "Content" tab and locate the node title under the content type of Project. *It may help if you set the filter to only search for projects</li>
 <li>Give your node a meaningful title</li>
 <li>Add text the body(can be in any format in the drop down)</li>
@@ -38,3 +38,9 @@ The Projects page is consisted of two views, Projects and <a href="#blogs">Recen
 <li>Include an image, if desired from upload button</li>
 </ol>
 <p>*note all changes made to any node in projects content type will show on the "Featured-Projects" slider and "Projects" grid.</p>
+
+<h2>News Page</h2>
+The News Feed page contains an aggregation of news feed and a view for <a href="#blogs">Recent Blog</a> posts.<br /><br />
+To upload/edit new content in the aggregator<br />
+<ol><li>In the admin navigation go to "Configuration/Web services/ Feed aggregator" to create a item inside the aggragator go to "Configuration/Web services/ Feed aggregator/Add feed". </li>
+</ol>
