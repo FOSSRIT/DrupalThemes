@@ -18,6 +18,11 @@ Slider
 <h2>Events Page</h2>
 The Events page is consisted of two views, Events and <a href="#blogs">Recent Blog</a> posts.<br /><br />
 <strong>Events(Event)</strong>- This view generates the grid layout of teasers of the latest nodes under the content type of "Event"<br /><br /> <div id="events">To upload/edit new content</div>
-<ol><li>in the admin navigation go to "Content/Create Content/Event" to create new event node.  To modify event node, go to "Content" tab and locate node of </li>
-<li></li>
+<ol><li>In the admin navigation go to "Content/Create Content/Event" to create new event node.  To modify event node, go to "Content" tab and locate node title.</li>
+<li>Give your node a meaningful title</li>
+<li>add text the body(can be in any format in the drop down)</li>
+<li>Select group of event form the drop down menu</li>
+<li>Select the event type form drop down</li>
+<li>Include an image, if desired from upload button</li>
 </ol>
+<p>*note all changes made to any node in events content type will show on the "Featured-Events" slider and "Events" grid.</p>
