@@ -17,4 +17,7 @@ Slider
 <strong>Recent-Blogs (Blog entry)</strong>- This view is located in the right-side panel(region-sidebar-second). This view generates a list of teasers consisted of shortened field values from the oroginal node.<br /><br /> To upload/edit new content to be featured on the list, one would just simply create/edit the node under the content type of  <a href="#blogs">Blog entry</a><br /><br />
 <h2>Events Page</h2>
 The Events page is consisted of two views, Events and <a href="#blogs">Recent Blog</a> posts.<br /><br />
-<strong>Events(Event)</strong>- This view generates the grid layout of teasers of the latest nodes under the content type of "Event"<br /><br /> To upload/edit new content to be featured on the slider, one would just simply create/edit the node under the content type of  <a href="#events">event</a><br /><br />
+<strong>Events(Event)</strong>- This view generates the grid layout of teasers of the latest nodes under the content type of "Event"<br /><br /> <div id="events">To upload/edit new content</div>
+<ol><li>in the admin navigation go to "Content/Create Content/Event" to create new event node.  To modify event node, go to "Content" tab and locate node of </li>
+<li></li>
+</ol>
