@@ -42,5 +42,5 @@ The Projects page is consisted of two views, Projects and <a href="#blogs">Recen
 <h2>News Page</h2>
 The News Feed page contains an aggregation of news feed and a view for <a href="#blogs">Recent Blog</a> posts.<br /><br />
 To upload/edit new content in the aggregator<br />
-<ol><li>In the admin navigation go to "Configuration/Web services/ Feed aggregator" to create a item inside the aggragator go to "Configuration/Web services/ Feed aggregator/Add feed". </li>
+<ol><li>In the admin navigation go to "Configuration/Web services/ Feed aggregator"to modify content. To create an item inside the aggregator go to "Configuration/Web services/ Feed aggregator/Add feed". </li>
 </ol>
