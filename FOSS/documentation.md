@@ -15,4 +15,4 @@ Slider
 <li>To add a title and teaser body text, just go to drop down choose full-html and don't forget to disable rich text. From there add h1 tags for title and p tags for body text.</li>
 <li>slider links can be left blank, unless user wants to specify the node to be linked.</li>
 </ol>
-<strong>Featured Events (Events)</strong>- This view is located in the content section and is the first of the two sliders. The view basically cycles through all of the lastest nodes in "Events" content type.<br /> To upload/edit new content to be featured on the slider, one would just simply create/edit the node under the content type of  <a href="#Event">event</a>  </li>
+<strong>Featured Events (Events)</strong>- This view is located in the content section and is the first of the two sliders. The view basically cycles through all of the lastest nodes in "Events" content type.<br /><br /> To upload/edit new content to be featured on the slider, one would just simply create/edit the node under the content type of  <a href="#Event">event</a>
