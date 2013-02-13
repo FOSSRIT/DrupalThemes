@@ -7,7 +7,7 @@ The home page is consisted of four views, which had been set to show only previe
 <h3>Views and their corresponding content type in paranthesis.</h3>
 <strong>Featured Slider (Featured Slider)</strong>- This view is located in the header section
 and will cycle through latest images uploaded. <br /><br /> To upload/edit contents and images for Featured 
-Slider,one must simply navigate to  the admin navbar and go to "content/Create content/Featured Slider"
+Slider,one must simply navigate to  the admin navbar and go to<br /> "content/Create content/Featured Slider"
 uploading images and edit text. Navigate to "content" and look under column of Featured Slider to view 
 all contents of that type and modify.  To add a title and teaser body text just go to drop down choose
 full-html and disable rich text. From there add h1 tags for title and p tags for body text. To upload
