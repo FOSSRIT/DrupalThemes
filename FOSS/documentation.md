@@ -18,7 +18,7 @@ Slider
 <h2>Events Page</h2>
 The Events page is consisted of two views, Events and <a href="#blogs">Recent Blog</a> posts.<br /><br />
 <p>To modify the basic info about the events page, simply click on the edit tab located in the content area and you should have access to every piece of content below the grid to modify if you are a registered admin.</p>
-<strong>Events(Event)</strong>- This view generates the grid layout of teasers of the latest nodes under the content type of "Event"<br /><br /> <a name="events">To upload/edit new content</a>
+<strong>Events(Event)</strong>- This view generates the grid layout of teasers of the latest nodes under the content type of "Event"<br /><br /> <div name="events">To upload/edit new content</div>
 <ol><li>In the admin navigation go to "Content/Create Content/Event" to create a new event node.  To modify an event node, go to the "Content" tab in the admin nav bar and locate node title. *It may help if you set the filter to only search for the content type of "Event"</li>
 <li>Give your node a meaningful title</li>
 <li>Add text to the body(can be in any format in the drop down)</li>
@@ -30,7 +30,7 @@ The Events page is consisted of two views, Events and <a href="#blogs">Recent Bl
 
 <h2>Projects Page</h2>
 The Projects page is consisted of two views, Projects and <a href="#blogs">Recent Blog</a> posts.<br /><br />
-<strong>Projects(Project)</strong>- This view generates the grid layout of teasers of the latest nodes under the content type of "Project"<br /><br /> <a name="projects">To upload/edit new content</a>
+<strong>Projects(Project)</strong>- This view generates the grid layout of teasers of the latest nodes under the content type of "Project"<br /><br /> <div name="projects">To upload/edit new content</div>
 <ol><li>In the admin navigation go to "Content/Create Content/Project" to create new project node.  To modify a project node, go to "Content" tab and locate the node title under the content type of Project. *It may help if you set the filter to only search for projects</li>
 <li>Give your node a meaningful title</li>
 <li>Add text the body(can be in any format in the drop down)</li>
