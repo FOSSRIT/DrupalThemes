@@ -44,4 +44,4 @@ To upload/edit new content in the aggregator<br />
 <ol><li>In the admin navigation go to "Configuration/Web services/ Feed aggregator"to modify content. To create an item inside the aggregator go to "Configuration/Web services/ Feed aggregator/Add feed". </li>
 </ol><br /><br />
 <h2>Research Page</h2>
-The Research page contains just a static content type of page. To locate the static page to edit go to "Content" and look for the title "Research" under the content type of page.<br /><br />
+The Research page contains just a static content type of page. To locate the static page to edit, go to "Content" and look for the title "Research" under the content type of page.<br /><br />
