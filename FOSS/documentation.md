@@ -1,7 +1,7 @@
 <h1>FOSS Theme documentation</h1>
 This is the documentation for the FOSS theme to be implemented in Drupal 7.<br />
 <h2>Home Page</h2>
-The home page is consisted of four views, which had been set to show only preview content from nodes of corresponding content types.<br /><br />
+The home page is consisted of four views, which had been set to show only preview content from nodes from corresponding content types.<br /><br />
 <strong>Featured Slider (Featured Slider)</strong>- This view is located in the header section
 and will cycle through latest images uploaded. <br /><br /> To upload/edit contents and images for Featured 
 Slider
@@ -44,4 +44,14 @@ To upload/edit new content in the aggregator<br />
 <ol><li>In the admin navigation go to "Configuration/Web services/ Feed aggregator"to modify content. To create an item inside the aggregator go to "Configuration/Web services/ Feed aggregator/Add feed". </li>
 </ol><br />
 <h2>Research Page</h2>
-<p>The Research page contains only one item, a static node labeled as "research" under the content type of Page.</p><br /><br />
+<p>The Research page contains only one item, a static node labeled as "research" under the content type of "Page".</p><br /><br />
+<h2>Blog Posts</h2>
+<p><a name="blogs">Blog posts</a> can reached by clicking the more link, located on the bottom of the recent blogs panel.</p>
+<p>To add/edit blogs</p>
+<ol>
+<li>Navigate to "Content/Create Content/Blog Entry" for creating a blog post. To modify a blog post, simply click on the "Content" tab and look for the title of the blog post under the content type of "Blog Entry" </li>
+<li>Choose a meaningful title for the blog post</li>
+<li>Edit the body content in any way you'd like from the provided options in drop-down menu</li>
+<li>Attach a file, must be within the guidlines of the  allowed file type</li>
+<li>Upload a teaser image for the blog post, this will be used for the side panel of blog teasers</li>
+</ol>
