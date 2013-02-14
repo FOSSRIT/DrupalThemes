@@ -26,7 +26,7 @@ The Events page is consisted of two views, Events and <a href="#blogs">Recent Bl
 <li>Select the event type from the drop down menu</li>
 <li>Include an image, if desired from upload button</li>
 </ol>
-<p>*note all changes made to any node in events content type will show on the "Featured-Events" slider and "Events" grid.</p>
+<p>*note all changes made to any node in events content type will show on the "Featured-Events" slider and "Events" grid.</p><br />
 
 <h2>Projects Page</h2>
 The Projects page is consisted of two views, Projects and <a href="#blogs">Recent Blog</a> posts.<br /><br />
@@ -37,7 +37,7 @@ The Projects page is consisted of two views, Projects and <a href="#blogs">Recen
 <li>Select the project type from drop down</li>
 <li>Include an image, if desired from upload button</li>
 </ol>
-<p>*note all changes made to any node in projects content type will show on the "Featured-Projects" slider and "Projects" grid.</p>
+<p>*note all changes made to any node in projects content type will show on the "Featured-Projects" slider and "Projects" grid.</p><br />
 <h2>News Page</h2>
 The News Feed page contains an aggregation of news feed and a view for <a href="#blogs">Recent Blog</a> posts.<br /><br />
 To upload/edit new content in the aggregator<br />
