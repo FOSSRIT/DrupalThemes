@@ -10,7 +10,8 @@ Slider
 <img src="http://people.rit.edu/~dqn8613/doc_imgs/featuredslider.png"></li>
 <li>Add a title, the title will be excluded from the display  *make it meaningful</li>
 <li>Upload image under slider image section. *note all images should be 800 X 400 px. Images will automatically rescale upon device width.</li>
-<li>To add a title and teaser body text, just go to drop down choose full-html and don't forget to disable rich text. From there add h1 tags for title and p tags for body text.</li>
+<li>To add a title and teaser body text, just go to drop down choose full-html and don't forget to disable rich text. From there add h1 tags for title and p tags for body text.
+ex: <img src="http://people.rit.edu/~dqn8613/doc_imgs/featuredslider_textBody.png"></li>
 <li>slider links can be left blank, unless user wants to specify the node to be linked.</li>
 </ol>
 <strong>Featured Events (Events)</strong>- This view is located in the content section and is the first of the two sliders. The view basically cycles through all of the lastest nodes in "Events" content type.<br /><br /> To upload/edit new content to be featured on the slider, one would just simply create/edit the node under the content type of  <a href="#events">event</a><br /><br />
