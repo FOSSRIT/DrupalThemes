@@ -6,12 +6,12 @@ The home page is consisted of four views, which had been set to show only previe
 and will cycle through latest images uploaded. <br /><br /> To upload/edit contents and images for Featured 
 Slider
 <ol>
-<li>Navigate to the admin navbar and go to "content/Create content/Featured Slider" to create. Navigate to "Content" tab and find the node that was created under the content type of "Featured Slider" to edit the original content or swap out image.
-<img src="http://people.rit.edu/~dqn8613/doc_imgs/featuredslider.png"></li>
+<li>Navigate to the admin navbar and go to "content/Create content/Featured Slider" to create. Navigate to "Content" tab and find the node that was created under the content type of "Featured Slider" to edit the original content or swap out image. <br /><br />
+<img src="http://people.rit.edu/~dqn8613/doc_imgs/featuredslider.png"><br /></li>
 <li>Add a title, the title will be excluded from the display  *make it meaningful</li>
 <li>Upload image under slider image section. *note all images should be 800 X 400 px. Images will automatically rescale upon device width.</li>
 <li>To add a title and teaser body text, just go to drop down choose full-html and don't forget to disable rich text. From there add h1 tags for title and p tags for body text.
-ex: <img src="http://people.rit.edu/~dqn8613/doc_imgs/featuredslider_textBody.png"></li>
+<br /><br /><img src="http://people.rit.edu/~dqn8613/doc_imgs/featuredslider_textBody.png"><br /></li>
 <li>slider links can be left blank, unless user wants to specify the node to be linked.</li>
 </ol>
 <strong>Featured Events (Events)</strong>- This view is located in the content section and is the first of the two sliders. The view basically cycles through all of the lastest nodes in "Events" content type.<br /><br /> To upload/edit new content to be featured on the slider, one would just simply create/edit the node under the content type of  <a href="#events">event</a><br /><br />
@@ -21,7 +21,8 @@ ex: <img src="http://people.rit.edu/~dqn8613/doc_imgs/featuredslider_textBody.pn
 The Events page is consisted of two views, Events and <a href="#blogs">Recent Blog</a> posts.<br /><br />
 <p>To modify the basic info about the events page, simply click on the edit tab located in the content area and you should have access to every piece of content below the grid to modify if you are a registered admin.</p>
 <strong>Events(Event)</strong>- This view generates the grid layout of teasers of the latest nodes under the content type of "Event"<br /><br /> <a name="events">To upload/edit new content</a>
-<ol><li>In the admin navigation go to "Content/Create Content/Event" to create a new event node.  To modify an event node, go to the "Content" tab in the admin nav bar and locate node title. *It may help if you set the filter to only search for the content type of "Event"</li>
+<ol><li>In the admin navigation go to "Content/Create Content/Event" to create a new event node.  To modify an event node, go to the "Content" tab in the admin nav bar and locate node title. *It may help if you set the filter to only search for the content type of "Event"
+<br /><br /><img src="http://people.rit.edu/~dqn8613/doc_imgs/events.png"><br /></li>
 <li>Give your node a meaningful title</li>
 <li>Add text to the body(can be in any format in the drop down)</li>
 <li>Select group of event from the drop down menu</li>
@@ -33,7 +34,8 @@ The Events page is consisted of two views, Events and <a href="#blogs">Recent Bl
 <h2>Projects Page</h2>
 The Projects page is consisted of two views, Projects and <a href="#blogs">Recent Blog</a> posts.<br /><br />
 <strong>Projects(Project)</strong>- This view generates the grid layout of teasers of the latest nodes under the content type of "Project"<br /><br /> <a name="projects">To upload/edit new content</a>
-<ol><li>In the admin navigation go to "Content/Create Content/Project" to create new project node.  To modify a project node, go to "Content" tab and locate the node title under the content type of Project. *It may help if you set the filter to only search for projects</li>
+<ol><li>In the admin navigation go to "Content/Create Content/Project" to create new project node.  To modify a project node, go to "Content" tab and locate the node title under the content type of Project. *It may help if you set the filter to only search for projects
+<br /><br /><img src="http://people.rit.edu/~dqn8613/doc_imgs/projects.png"><br /></li>
 <li>Give your node a meaningful title</li>
 <li>Add text the body(can be in any format in the drop down)</li>
 <li>Select the project type from drop down</li>
@@ -42,7 +44,8 @@ The Projects page is consisted of two views, Projects and <a href="#blogs">Recen
 <p>*note all changes made to any node in projects content type will show on the "Featured-Projects" slider and "Projects" grid.</p><br />
 <h2>News Page</h2>
 The News Feed page contains an aggregation of news feed and a view for <a href="#blogs">Recent Blog</a> posts.<br /><br />
-To upload/edit new content in the aggregator<br />
+To upload/edit new content in the aggregator
+<br /><br /><img src="http://people.rit.edu/~dqn8613/doc_imgs/news.png"><br />
 <ol><li>In the admin navigation go to "Configuration/Web services/ Feed aggregator"to modify content. To create an item inside the aggregator go to "Configuration/Web services/ Feed aggregator/Add feed". </li>
 </ol><br />
 <h2>Research Page</h2>
