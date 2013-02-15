@@ -44,17 +44,24 @@ The Projects page is consisted of two views, Projects and <a href="#blogs">Recen
 <p>*note all changes made to any node in projects content type will show on the "Featured-Projects" slider and "Projects" grid.</p><br />
 <h2>News Page</h2>
 The News Feed page contains an aggregation of news feed and a view for <a href="#blogs">Recent Blog</a> posts.<br /><br />
-To upload/edit new content in the aggregator
-<br /><br /><img src="http://people.rit.edu/~dqn8613/doc_imgs/news.png"><br />
-<ol><li>In the admin navigation go to "Configuration/Web services/ Feed aggregator"to modify content. To create an item inside the aggregator go to "Configuration/Web services/ Feed aggregator/Add feed". </li>
-</ol><br />
+To upload/edit new content in the aggregator<br />
+<ul><li>In the admin navigation go to "Configuration/Web services/ Feed aggregator"to modify content. To create an item inside the aggregator go to "Configuration/Web services/ Feed aggregator/Add feed".
+<br /><br /><img src="http://people.rit.edu/~dqn8613/doc_imgs/news.png"><br /></li>
+</ul><br />
 <h2>Research Page</h2>
-<p>The Research page contains only one item, a static node labeled as "research" under the content type of "Page".</p><br /><br />
+<p>The Research page contains only one item, a static node labeled as "research" under the content type of "Page".</p>
+<p>To access this page </p>
+<ol>
+<li>Go to the "Content" tab located in the admin nav bar</li>
+<li>Use the filter to search under the content type of "Page"</li>
+<li>Locate title "Research"</li><br /><br />
+<img src="http://people.rit.edu/~dqn8613/doc_imgs/research.png"><br /><br />
 <h2>Navigation</h2>
 <p>Navigation is not a view. Main navigation shown in the header on every page is located at "Structure/Menus/Main Menu" inside the admin nav bar.</p>
 <p>To edit/add items to the main navigation:</p>
 <ol>
-<li>Hover over tab "Structure" in the admin nav bar, hover over "Menus" then click on "Main Menu"</li>
+<li>Hover over tab "Structure" in the admin nav bar, hover over "Menus" then click on "Main Menu"<br /><br />
+<img src="http://people.rit.edu/~dqn8613/doc_imgs/nav.png"><br /></li>
 <li>From there you can either add a link to the menu or re-arrange the menu by weight.</li>
 <li>To add links.<ul>
 <li>Click add link button</li>
@@ -71,7 +78,8 @@ To upload/edit new content in the aggregator
 <p><a name="blogs">Blog posts</a> can reached by clicking the more link, located on the bottom of the recent blogs panel.</p>
 <p>To add/edit blogs</p>
 <ol>
-<li>Navigate to "Content/Create Content/Blog Entry" for creating a blog post. To modify a blog post, simply click on the "Content" tab and look for the title of the blog post under the content type of "Blog Entry" </li>
+<li>Navigate to "Content/Create Content/Blog Entry" for creating a blog post. To modify a blog post, simply click on the "Content" tab and look for the title of the blog post under the content type of "Blog Entry" 
+<br /><br /><img src="http://people.rit.edu/~dqn8613/doc_imgs/blog.png"><br /></li>
 <li>Choose a meaningful title for the blog post</li>
 <li>Edit the body content in any way you'd like from the provided options in drop-down menu</li>
 <li>Attach a file, must be within the guidlines of the  allowed file type</li>
