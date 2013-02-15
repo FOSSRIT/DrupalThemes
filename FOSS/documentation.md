@@ -56,8 +56,8 @@ To upload/edit new content in the aggregator<br />
 <li>Choose a meaningful title</li>
 <li>Choose a path for an existing node/page or external url</li>
 <li>Give a description of what this link is about.</li>
-<li>Check enabled to show in the main navigation</li>
-<li>If this link in the main navigation does not have any chlidren uncheck "Show as expanded"</li>
+<li>Check enabled to show this link in main navigation</li>
+<li>If this link does not have any children uncheck "Show as expanded"</li>
 <li>Click save</li>
 </ul></li>
 </ol><br/ ><br />
