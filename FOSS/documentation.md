@@ -1,7 +1,7 @@
 <h1>FOSS Theme documentation</h1>
 This is the documentation for the FOSS theme to be implemented in Drupal 7.<br />
 <h2>Home Page</h2>
-The home page is consisted of four views, which had been set to show only preview content from nodes from corresponding content types.<br /><br />
+The home page is consisted of four views, which had been set to show only preview content from nodes of the corresponding content types.<br /><br />
 <strong>Featured Slider (Featured Slider)</strong>- This view is located in the header section
 and will cycle through latest images uploaded. <br /><br /> To upload/edit contents and images for Featured 
 Slider
@@ -45,6 +45,8 @@ To upload/edit new content in the aggregator<br />
 </ol><br />
 <h2>Research Page</h2>
 <p>The Research page contains only one item, a static node labeled as "research" under the content type of "Page".</p><br /><br />
+<h2>Navigation</h2>
+<p>Navigation is not a view. Main navigation shown in the header on every page is located at "Structure/Menus/Main Menu" inside the admin nav bar.</p><br/ ><br />
 <h2>Blog Posts</h2>
 <p><a name="blogs">Blog posts</a> can reached by clicking the more link, located on the bottom of the recent blogs panel.</p>
 <p>To add/edit blogs</p>
