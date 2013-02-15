@@ -46,7 +46,21 @@ To upload/edit new content in the aggregator<br />
 <h2>Research Page</h2>
 <p>The Research page contains only one item, a static node labeled as "research" under the content type of "Page".</p><br /><br />
 <h2>Navigation</h2>
-<p>Navigation is not a view. Main navigation shown in the header on every page is located at "Structure/Menus/Main Menu" inside the admin nav bar.</p><br/ ><br />
+<p>Navigation is not a view. Main navigation shown in the header on every page is located at "Structure/Menus/Main Menu" inside the admin nav bar.</p>
+<p>To edit/add items to the main navigation:</p>
+<ol>
+<li>Hover over tab "Structure" in the admin nav bar, hover over "Menus" then click on "Main Menu"</li>
+<li>From there you can either add a link to the menu or re-arrange the menu by weight.</li>
+<li>To add links.<ul>
+<li>Click add link button</li>
+<li>Choose a meaningful title</li>
+<li>Choose a path for an existing node/page or external url</li>
+<li>Give a description of what this link is about.</li>
+<li>Check enabled to show in the main navigation</li>
+<li>If this link in the main navigation does not have any chlidren uncheck "Show as expanded"</li>
+<li>Click save</li>
+</ul></li>
+</ol><br/ ><br />
 <h2>Blog Posts</h2>
 <p><a name="blogs">Blog posts</a> can reached by clicking the more link, located on the bottom of the recent blogs panel.</p>
 <p>To add/edit blogs</p>
