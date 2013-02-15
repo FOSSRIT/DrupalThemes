@@ -6,8 +6,9 @@ The home page is consisted of four views, which had been set to show only previe
 and will cycle through latest images uploaded. <br /><br /> To upload/edit contents and images for Featured 
 Slider
 <ol>
-<li>navigate to the admin navbar and go to "content/Create content/Featured Slider" to create. Navigate to "Content" tab and find the node that was created under the content type of "Featured Slider" to edit the origonal content or swap out image.</li>
-<li>Add a title, the title will be excluded from the display  *make it meaningful</li>
+<li>Navigate to the admin navbar and go to "content/Create content/Featured Slider" to create. Navigate to "Content" tab and find the node that was created under the content type of "Featured Slider" to edit the original content or swap out image.</li>
+<li>Add a title, the title will be excluded from the display  *make it meaningful
+<img src="http://people.rit.edu/~dqn8613/doc_imgs/featuredslider.png"></li>
 <li>Upload image under slider image section. *note all images should be 800 X 400 px. Images will automatically rescale upon device width.</li>
 <li>To add a title and teaser body text, just go to drop down choose full-html and don't forget to disable rich text. From there add h1 tags for title and p tags for body text.</li>
 <li>slider links can be left blank, unless user wants to specify the node to be linked.</li>
@@ -75,8 +76,8 @@ To upload/edit new content in the aggregator<br />
 <h2>Where to access and modify CSS</h2>
 <p>CSS properties can be access through 4 different css files. The directory that the files can be found are "DrupalThemes/FOSS/css/". Each file has a specific media query rule defined for device width.</p>
 <ul>
-<li><strong>Main CSS</strong> or global is labeled as "global.css"  changes made here will be applied  to all device widths unless specified inside a media query.<br />For mobile css using the media query rule of width(320px-480px) is also located inside of the 'global.css' file</li>
+<li><strong>Main CSS</strong> or global is labeled as "global.css"  changes made here will be applied  to all device widths unless specified inside a media query.<br />Also the media query for mobile width(320px-480px) is also located inside of the 'global.css' file</li>
 <li><strong>Desktop width and up</strong> styles are defined in the "FOSS-alpha-default-wide.css" . The media query rule for this style starts at a minimun width of 1024px</li>
-<li><strong>Netbooks/small screens</strong> can be found in the file "FOSS-alpha-default-normal.css" Standard media query rule for netbooks and small screens was set at min-width of 768px</li>
-<li><strong>Tablet</strong> styles can be found in "FOSS-alpha-default-narrow.css". For the tablet media query the min-width was set to 480px</li>
+<li><strong>Netbooks/small screens</strong> can be found in the file "FOSS-alpha-default-normal.css" Standard media query rule for netbooks and small screens starts was set at min-width of 768px</li>
+<li><strong>Tablet</strong> styles can be found in "FOSS-alpha-default-narrow.css". For the tablet media query the mi-width was set to 480px</li>
 </ul>
