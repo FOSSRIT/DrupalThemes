@@ -75,7 +75,7 @@ To upload/edit new content in the aggregator<br />
 <h2>Where to access and modify CSS</h2>
 <p>CSS properties can be access through 4 different css files. The directory that the files can be found are "DrupalThemes/FOSS/css/". Each file has a specific media query rule defined for device width.</p>
 <ul>
-<li><strong>Main CSS</strong> or global is labeled as "global.css"  changes made here will be applied  to all device widths unless specified inside a media query.<br />Also the media query for mobile css using the media query rule of width(320px-480px) is also located inside of the 'global.css' file</li>
+<li><strong>Main CSS</strong> or global is labeled as "global.css"  changes made here will be applied  to all device widths unless specified inside a media query.<br />For mobile css using the media query rule of width(320px-480px) is also located inside of the 'global.css' file</li>
 <li><strong>Desktop width and up</strong> styles are defined in the "FOSS-alpha-default-wide.css" . The media query rule for this style starts at a minimun width of 1024px</li>
 <li><strong>Netbooks/small screens</strong> can be found in the file "FOSS-alpha-default-normal.css" Standard media query rule for netbooks and small screens was set at min-width of 768px</li>
 <li><strong>Tablet</strong> styles can be found in "FOSS-alpha-default-narrow.css". For the tablet media query the min-width was set to 480px</li>
