@@ -59,8 +59,8 @@ To upload/edit new content in the aggregator<br />
 <li>Check enabled to show this link in main navigation</li>
 <li>If this link does not have any children uncheck "Show as expanded"</li>
 <li>Click save</li>
-<li>To re-arrange the order of links just simply define the weight, highest number starting from the left and lowest number ending on the right</li>
 </ul></li>
+<li>To re-arrange the order of links just simply define the weight, highest number starting from the left and lowest number ending on the right</li>
 </ol><br/ ><br />
 <h2>Blog Posts</h2>
 <p><a name="blogs">Blog posts</a> can reached by clicking the more link, located on the bottom of the recent blogs panel.</p>
