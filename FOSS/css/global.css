@@ -112,13 +112,15 @@ h2.block-title{
 
 /* $Social Icons */
 #block-block-11{
-  text-align: center;
+  /*text-align: center;*/
+  margin-top: 20%;
 }
 #social{
   font-family: "SocialBats";
   color: #000;
   font-size: 30px;
   text-decoration: none;
+  margin-left: 5%;
 }
 #social:hover{
   color: #6cd73d;
@@ -192,6 +194,11 @@ h2.block-title{
     background: #000;
     opacity: .6;
     padding-left: 5%;
+}
+
+/* Home Page body content */
+#node-page-1{
+          width: 80%;
 }
 
 /* $Featured Events Block */
