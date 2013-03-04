@@ -11,9 +11,13 @@
 }
 
 @font-face {
-  font-family: "FontAwesome";
-  src: url('../font/fontawesome-webfont.eot');
-  src: url('../font/fontawesome-webfont.eot?#iefix') format('eot'), url('../font/fontawesome-webfont.woff') format('woff'), url('../font/fontawesome-webfont.ttf') format('truetype'), url('../font/fontawesome-webfont.svg#FontAwesome') format('svg');
+  font-family: "Orbitron";
+  /*src: url('../font/OrbitronBlack.otf');
+  src: url('../font/OrbitronBlack.ttf') format('truetype');*/
+  src: url('../font/OrbitronMedium.otf');
+  src: url('../font/OrbitronMedium.eot?') format('eot');
+  src: url('../font/OrbitronMedium.eot?#iefix') format('embedded-opentype');
+  src: url('../font/OrbitronMedium.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -31,6 +35,17 @@ h2.site-name {
 }
 h6.site-slogan {
   font-size: 1em;
+}
+
+h2.block-title{
+  font-family: "Orbitron";
+  padding-bottom: 2%;
+  letter-spacing: 2px;
+}
+
+.field-content>h1{
+  font-family: "Orbitron";
+  letter-spacing: 2px;
 }
 
 /* $HEADER */
