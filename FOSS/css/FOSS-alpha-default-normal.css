@@ -2,55 +2,21 @@
  * netbook/small screen
  */
 @media only screen and (min-width: 768px) {
-
-
   /* header bar */
-  #section-header {
-    padding-bottom: 0;
-  }
-
-  /* $About Content */
-  #node-page-135{
-   	float: left;
-   	padding-right: 5%;
-  }
-
-  /* $Events Content */
-  #node-page-329{
-  	float: left;
-  	padding-right: 5%;
-  }
-	#node-page-329{
-		float: left;
-		padding-right: 5%;
-	}
-
-  /* $Projects Content */
-  .view-projects{
-    float: left;
-    width: 100%;
-    padding-right: 5%;
-  }
+  #section-header { padding-bottom: 0; }
 
   /* $News (aggreggator) */
   #aggregator{
    	float: left;
-   	width: 60%;
-   	padding-right: 5%;
-  }
-
-  /* $Research Content */
-  #node-page-330{
-   	float: left;
-   	width: 60%;
-   	padding-right: 5%;
+   	width: 70%;
+   	padding-right: 3.6%;
   }
 
   /* $Featured Slider */
-  #block-views-featured-slider-block img{
-    width: 960px;
-    height: 440px;
-  }
+  #views_slideshow_cycle_teaser_section_featured_slider-block 
+  { min-height: 400px !important; }
+  #block-views-featured-slider-block img
+  { width: 960px; }
 
   /* $Featured Events Block */
   #block-views-featured-events-block{
@@ -72,10 +38,10 @@
 
 /* $Featured Events Block */
     #block-views-featured-events-block{
-        float: left;
-        width: 80%;
-        padding-right: 5%;
-        border-top: 1px solid #000;
+      float: left;
+      width: 80%;
+      padding-right: 5%;
+      border-top: 1px solid #000;
      }
 
 /* $Featured Projects Block */
