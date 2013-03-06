@@ -1,7 +1,5 @@
 /* $TYPOGRAPHY */
 /* ________________________________________________________________________ */
-@import url("http://openfontlibrary.org/face/jura");
-
 @font-face {
   font-family: "SocialBats";
   src: url('../font/socialbats-webfont.eot');
@@ -9,11 +7,8 @@
   font-weight: normal;
   font-style: normal;
 }
-
 @font-face {
   font-family: "Orbitron";
-  /*src: url('../font/OrbitronBlack.otf');
-  src: url('../font/OrbitronBlack.ttf') format('truetype');*/
   src: url('../font/OrbitronMedium.otf');
   src: url('../font/OrbitronMedium.eot?') format('eot');
   src: url('../font/OrbitronMedium.eot?#iefix') format('embedded-opentype');
@@ -21,100 +16,83 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
+
+/* BASE STYLES */
+/* ________________________________________________________________________ */
 html {
-  font-family:  'Jura', Verdana, Arial, sans-serif;
+  font-family: Arial, Verdana, sans-serif;
   font-size: 100%;
   -webkit-font-smoothing: subpixel-antialiased; 
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Jura";
+h1, .field-content > h1,
+h2, h2.block-title,
+h3, h4, h5, h6, 
+#page-title {
+  font-family: "Orbitron";
 }
-
-h2.site-name {
-  font-size: 1.5em;
-}
+h2.site-name { font-size: 1.5em; }
+h2.block-title{ padding-bottom: 2%; }
 h6.site-slogan {
-  font-size: 1em;
+  font-size: .8em;
+  line-height: 2;
 }
 
-h2.block-title{
-  font-family: "Orbitron";
-  padding-bottom: 2%;
-  letter-spacing: 2px;
-}
-
-.field-content>h1{
-  font-family: "Orbitron";
-  letter-spacing: 2px;
-}
 
 /* $HEADER */
-/* ________________________________________________________________________ */
-#section-header {
-  font-family: "Jura", Verdana, sans-serif;
+/* _________________________________________________ */
+#section-header,
+#section-footer /* both same scheme */
+{
   background: #333;
   color: #eee;
-  padding: 0.1em 0 1em;
 }
-#section-header a {
-  color: inherit;
+#section-header a { color: inherit; }
+
+/* this is used on the homepage */
+/* sets the slider background to grey */
+#zone-preface-wrapper{ background: #DCDCDC; }
+
+/* SITE BRANDING (logo, site-name) */
+#zone-branding .logo-img {
+  display: inline-block;
+  margin: 0 1em 0 0;
 }
-#zone-preface-wrapper{
-  background: #DCDCDC;
+#zone-branding .logo-img img{
+  height: 40px;
+  width: 35px;
+  position: relative;
+  bottom: 0.55em;
+  vertical-align: middle;
+}
+#zone-branding h1.site-name { font-size: 1.5em; }
+#zone-branding hgroup.site-name-slogan { float: none; }
+
+
+
+/* NAVIGATION */
+/* _________________________________________________ */
+#main-menu {
+  padding: 1em 0 0;
+  text-transform: uppercase;
+}
+#main-menu a {
+  text-decoration: none;
+}
+#main-menu a:hover {
+  color: #fff;
+  border-bottom: 2px solid green;
 }
 
-  /* id="zone-branding" */
-  /* logo / h1 / tagline */
-  #zone-branding .logo-img {
-    display: inline-block;
-    margin: 0 1em 0 0;
-  }
-  #zone-branding .logo-img img{
-    height: 50px;
-    width: 45px;
-    position: relative;
-    bottom: 0.75em;
-  }
-  #zone-branding h1.site-name {
-    font-size: 1.5em;
-    text-shadow: 0px 1px 3px #000;
-    filter: dropshadow(color=#000, offx=0, offy=1);
-  }
-  #zone-branding hgroup.site-name-slogan {
-    float: none;
-  }
 
-    /* navigation */
-    #region-menu nav.navigation{
-      font-size: 1.2em;
-      text-shadow: 0px 1px 3px #000;
-      filter: dropshadow(color=#000, offx=0, offy=1);
-    }
-      /* main menu */
-      #main-menu {
-        padding: 1em 0 0;
-        text-transform: uppercase;
-      }
-      #main-menu a {
-        text-decoration: none;
-      }
-      #main-menu a:hover {
-        color: #fff;
-        border-bottom: 2px solid green;
-      }
 
-/* Recent blog posts, and second region sidebar */
- .region-sidebar-second-inner{
-  margin-top: 8%;
-  text-align: center;
- }
-
+/* SIDEBAR */
+/* _________________________________________________ */
+.region-sidebar-second-inner{ margin-top: 8%; }
 
 /* $Social Icons */
-#block-block-11{
-  /*text-align: center;*/
-  margin-top: 20%;
-}
+#block-block-11{ margin-top: 25%; }
 #social{
   font-family: "SocialBats";
   color: #000;
@@ -122,89 +100,82 @@ h2.block-title{
   text-decoration: none;
   margin-left: 5%;
 }
-#social:hover{
-  color: #6cd73d;
-}
+#social:hover{ color: #6cd73d; }
+
+
 
 /* $FOOTER */
-#section-footer {
-  background: #333;
-  color: #eee;
-  font-family: "Jura", Verdana, sans-serif;
-  font-size: 110%;
-  padding: 1em 0 2em;
-}
+/* _________________________________________________ */
+#section-footer { padding: 1em 0 2em; }
 
-/* $SPONSORS */
+/* sponsors */
 #section-footer .sponsors .block-imageblock {
   float: left;
   text-align: center;
   margin-right: 2em;
   -webkit-filter: grayscale(50%);  
   -webkit-transition: all 0.2s ease-out;
-      -moz-transition: all 0.2s ease-out;
-         -o-transition: all 0.2s ease-out;
-              transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
-#section-footer .sponsors .block-imageblock:hover{
-  -webkit-filter: none; 
-  -webkit-transition: all 0.2s ease-out;
-      -moz-transition: all 0.2s ease-out;
-           -o-transition: all 0.2s ease-out;
-                transition: all 0.2s ease-out;
-}
-#section-footer .sponsors .block-imageblock img {
-  max-height: 40px;
-}
-#section-footer .sponsors .block-imageblock h2.block-title{
-  font-size: 14px;
-}
+#section-footer .sponsors .block-imageblock:hover{ -webkit-filter: none; }
+#section-footer .sponsors .block-imageblock img { max-height: 40px; }
 
-/* COPYRIGHT */
+/* copyright */
 #section-footer .copyright {
-  max-height: 1.5em;
   color: #aaa;
   font-size: 0.8em;
   text-align: center;
-  margin: 1em 0 0;
+  margin-top: 2em;
 }
-
-/* $CSS3 */
-.transition {
-    -webkit-transition: all 0.3s ease-out;
-        -moz-transition: all 0.3s ease-out;
-             -o-transition: all 0.3s ease-out;
-                  transition: all 0.3s ease-out;
-}
+/* getting rid of that weird footer empty space */
+#block-block-12 div div p { margin-bottom: 0; }
 
 
+
+
+
+
+
+/* CONTENT PAGES */
+/* _________________________________________________ */
+/* add some space to all pages */
+.region-content-inner{ margin-top: 5%; }
 
 
 /* $Featured Slider */
-
-.views-field-field-slider-image{
-  z-index: 1;
+.views-field-field-slider-image { z-index: 1; }
+#views_slideshow_cycle_teaser_section_featured_slider-block 
+{
+  width: auto !important;
+  height: auto !important;
+  min-height: 280px !important;
 }
-
+.views-slideshow-cycle-main-frame-row-item { position: relative; }
 .views-field-field-body{
-    z-index: 2;
-    margin-top: -200px;
-    color: #FFF;
-    height: 200px;
-    background: #000;
-    opacity: .6;
-    padding-left: 5%;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  width: 100%;
+  color: #FFF;
+  background-color: hsla(2, 1%, 0%, 0.5);
+  padding: 0 3em;
+}
+#block-views-featured-slider-block h1
+{
+  font-weight: normal;
+  margin-bottom: 0;
+}
+/* hide slider on mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px){  
+  .views-field-field-body{ display: none; }
 }
 
-/* Home Page body content */
-#node-page-1{
-          width: 80%;
-}
+
 
 /* $Featured Events Block */
-#block-views-featured-events-block{
-  border-top: 1px solid #000;
-}
+#block-views-featured-events-block{ border-top: 1px solid #000; }
 
 /* $Featured Projects Block */
 #block-views-featured-projects-block{
@@ -214,21 +185,18 @@ h2.block-title{
 }
 
 /* Events */
-#block-views-events-block {
-  margin-bottom: 4em;
-}
+#block-views-events-block { margin-bottom: 4em; }
 
+
+/* About */
 /* FOSS Team Members */
 .view-id-foss_members tr td {
   vertical-align: top;
   padding-bottom: 3em;
 }
-.view-id-foss_members p {
-  margin-bottom: 0.5em;
-}
-.view-id-foss_members .views-field-field-name div {
-  font-size: 1.1em;
-}
+.view-id-foss_members p { margin-bottom: 0.5em; }
+.view-id-foss_members .views-field-field-name div { font-size: 1.1em; }
+
 
 /* News aggregators */
 #aggregator {
@@ -243,21 +211,10 @@ h2.block-title{
 
 
 
-
-/**
- * mobile
- */
-@media only screen and (min-width: 320px) and (max-width: 480px){  
-  #block-views-featured-slider-block img{
-    width: 300px;
-    height: 100px;
-  }
-  
-  .views-field-field-slider-image{
-    z-index: 1;
-  }
-
-  .views-field-field-body{
-    display: none;
-  }
+/* $CSS3 */
+.transition {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
