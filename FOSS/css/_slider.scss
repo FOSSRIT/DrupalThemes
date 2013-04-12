@@ -1,0 +1,63 @@
+/* this is used on the homepage */
+/* sets the slider background to grey */
+// #zone-preface-wrapper{  }
+
+// the slider is within the "preface first" region
+// it was manually given a className of "foss-slider"
+.foss-slider{
+	background: #DCDCDC;
+
+	h2.block-title { display: none; }
+
+	// this is the div that holds all the "slides"
+	#views_slideshow_cycle_main_slide_test-block {
+		@extend .container;
+
+		#views_slideshow_cycle_teaser_section_slide_test-block {
+			background: #f00;
+			width: 100% !important;
+
+			.views-slideshow-cycle-main-frame-row
+			.views_slideshow_cycle_slide 
+			.views_slideshow_slide 
+			.views-row-2 
+			.views_slideshow_cycle_hidden 
+			.views-row-even
+
+			.views-slideshow-cycle-main-frame-row 
+			.views_slideshow_cycle_slide 
+			.views_slideshow_slide 
+			.views-row-3 
+			.views_slideshow_cycle_hidden 
+			.views-row-odd
+
+			// these are the individual "containers" for each slide
+			.views-slideshow-cycle-main-frame-row-item
+			.views-row 
+			.views-row-0 
+			.views-row-first 
+			.views-row-odd
+			
+			.views-slideshow-cycle-main-frame-row-item 
+			.views-row 
+			.views-row-0 
+			.views-row-first 
+			.views-row-odd
+
+			.views_slideshow_cycle_slide {
+				width: 100% !important;
+				background: #0f0;
+
+				// the actual field things we need
+				.views-field-field-event-banner-image img {
+					width: 100% !important;
+					height: 140px !important;
+					@include transition(height, 0.3s);
+					@include mq(tablet) { height: 200px !important; }
+					@include mq(netbook) { height: 280px !important; }
+					@include mq(desktop) { height: 340px !important; }
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,457 @@
+@import "normalize";
+
+// some of these styles ARE dependant on which Zone a block is in (sorry)
+
+// table of contents
+// --
+// base styles
+// header/footer style schemes
+// branding (logo, site name)
+// navigation
+// content area
+// event styles
+// project styles
+// FOSS member styles
+// footer styles
+
+// Traditional scale 
+// 6  = 0.375em
+// 7  = 0.4375em
+// 8  = 0.5em
+// 9  = 0.5625em
+// 10 = 0.625em
+// 11 = 0.6875em
+// 12 = 0.75em
+// 14 = 0.875em
+// 16 = 1em
+// 18 = 1.125em
+// 21 = 1.3125em
+// 24 = 1.5em
+// 36 = 2.25em
+// 48 = 3em
+// 60 = 3.75em
+// 72 = 4.5em
+
+
+// media queries
+@mixin mq($breakpoint)
+{
+  @if $breakpoint == mobile
+  {
+    @media only screen and (min-width: 320px){
+      @content;
+    }
+  }
+  @else if $breakpoint == tablet
+  {
+    @media only screen and (min-width: 480px) {
+      @content;
+    }
+  }
+  @else if $breakpoint == netbook
+  {
+    @media only screen and (min-width: 768px) {
+      @content;
+    }
+  }
+  @else if $breakpoint == desktop
+  {
+    @media only screen and (min-width: 1024px) {
+      @content;
+    }
+  }
+}
+// css3 - transition
+@mixin transition($property, $time)
+{
+  -webkit-transition: $property $time ease-out;
+  -moz-transition: $property $time ease-out;
+  -o-transition: $property $time ease-out;
+  transition: $property $time ease-out;  
+}
+
+
+
+/* BASE STYLES */
+/* ________________________________________________________________________ */
+html {
+  font-size: 100%;
+  -webkit-font-smoothing: subpixel-antialiased; 
+}
+a{
+  color:#378013;
+  text-decoration: none;
+}
+.hidden, .element-invisible {
+  visibility: hidden;
+  display: none;
+}
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.cf:after { clear: both; }
+.left { float: left; }
+.right {float: right; }
+.inline, .inline li { display: inline-block; }
+.inline li { margin-right: 1em; }
+.pager { @extend .inline; }
+.tabs.primary { @extend .inline; }
+
+
+
+// max width: 960px
+.container {
+  width: 90%;
+  max-width: 960px;
+  margin: 0 auto;
+  @extend .cf;
+}
+#zone-user-wrapping,
+#zone-branding,
+#block-views-featured-slider-block,
+#zone-content-wrapper,
+#zone-postscript-wrapper,
+#zone-footer-wrapper {
+  @extend .container;
+}
+.not-front #zone-preface-wrapper { display: none; }
+
+// partner 
+// --
+// barcamp roc
+// fedora projec
+// interlock
+// everything except the bottom
+
+// sponsors
+// redhat
+// stormfrog
+
+
+/* $HEADER/FOOTER */
+#section-header, #section-footer
+{
+  color: #eee;
+  background-color: #333333;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#333333), to(#121212));
+  background-image: -webkit-linear-gradient(top, #333333, #121212);
+  background-image: -moz-linear-gradient(top, #333333, #121212);
+  background-image: -o-linear-gradient(top, #333333, #121212);
+  background-image: linear-gradient(to bottom, #333333, #121212);
+  padding-top: 0.75em;
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+#skip-link { @extend .hidden; }
+
+
+
+/* SITE BRANDING (logo, site-name) */
+#region-branding, #region-menu { @include mq(tablet) { width: 50%; } }
+#region-branding { @include mq(tablet) { float: left; } }
+#region-menu { @include mq(tablet) { float: right; } }
+.logo-img, .site-name-slogan { display: inline-block; }
+.site-name-slogan {
+  width: 80%;
+  margin-bottom: 0.75em;
+  .site-name {
+    font-size: 1.25em;
+    margin: 0;
+  }
+  h6 {
+    font-family: OpenSansCondensedLight, "Helvetica Neue", Arial, Verdana, sans-serif;
+    font-size: 0.75em;
+    margin: 0.25em 0;
+  }
+}
+.logo-img img {
+  height: 40px;
+  width: 35px;
+  margin-right: 0.5em;
+}
+
+/* NAVIGATION */
+nav.navigation { @extend .cf; }
+#main-menu {
+  text-transform: uppercase;
+  padding: 0;
+  font-size: 0.875em;
+  @include mq(tablet) {
+    float: right;
+  }
+  // --
+  li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 1em 0 0;
+    &:last-child {
+      padding: 0;
+      margin: 0;
+    }
+  }
+  a {
+    border-bottom: 2px solid #222;
+    @include transition(border-bottom, 0.3s);
+    &:hover { border-bottom: 2px solid green; }
+  }
+}
+
+
+
+/* content area */
+#zone-content, #section-footer {
+  p, ul, ol { line-height: 1.4; }
+}
+
+
+/* home page */
+.front {
+  @extend .cf;
+  h1.title {
+    font-size: 1.5em;
+    @include transition(font-size, 0.3s);
+    @include mq(netbook) { font-size: 1.85em; }
+    @include mq(desktop) { font-size: 2.25em; }
+  }
+  @include mq(netbook){
+    .grid-9 {
+      width: 65%;
+      float: left;
+    }
+    .grid-3 {
+      width: 30%;
+      float: right;
+    }
+  }
+}
+
+
+
+
+
+
+/**
+ * Events
+ */
+/* events list */
+#region-content .region-content-inner { @extend .cf; }
+@include mq(netbook){
+  #block-views-events-block {
+    width: 65%;
+    float: left;
+  }
+  #node-page-329 {
+    width: 30%;
+    float: right;
+  }
+}
+.events {
+  padding-left: 0;
+  li {
+    list-style-type: none;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 3em;
+    &:last-child { margin-bottom: 0; }
+    // event image
+    .views-field-field-event-banner-image {
+      margin-bottom: 0.75em;
+      img {
+        height: 75%;
+        width: 100%;
+      }
+    }
+    // event header
+    .views-field-title {
+      font-size: 1.5em;
+      @include transition(font-size, 0.3s);
+      @include mq(netbook) { font-size: 1.85em; }
+      @include mq(desktop) { font-size: 2.25em; }
+    }
+  }
+}
+/* single page view */
+.node-type-event {
+  @extend .cf;
+  // banner image
+  .field-name-field-event-banner-image img {
+    width: 100%;
+    height: 80%;
+  }
+  // title
+  .field-name-field-event-title {
+    font-size: 1.5em;
+    @include transition(font-size, 0.3s);
+    @include mq(netbook) { font-size: 1.85em; }
+    @include mq(desktop) { font-size: 2.25em; }
+  }
+  // event date
+  .field-name-field-event-date {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  // event type / event group / registration link
+  .field-type-taxonomy-term-reference,
+  .field-name-field-registration-link {
+    margin-bottom: 0.5em;
+  }
+  .field-type-text-with-summary {
+    max-width: 35em;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* project page */
+article.node--project{
+  padding: 2em 0;
+  .field-name-field-title {
+    font-size: 2.25em;
+  }
+  .field-name-field-tagline-slogan {
+    margin-bottom: 1.5em;
+  }
+  .field-name-field--project-logo {
+    margin-bottom: 1em;
+  }
+}
+
+
+
+
+
+
+
+
+/* FOSS member sites */
+/* About */
+/* FOSS Team Members */
+.view-id-foss_members tr td {
+  vertical-align: top;
+  padding-bottom: 3em;
+}
+.view-id-foss_members p { margin-bottom: 0.5em; }
+.view-id-foss_members .views-field-field-name div { font-size: 1.1em; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+#zone-postscript { @extend .cf; }
+@include mq(netbook){
+  #region-postscript-first {
+    width: 65%;
+    max-width: 35em;
+    float: left;
+  }
+  #region-postscript-second {
+    width: 30%;
+    float: right;
+  }
+}
+.block-imageblock {
+  display: inline-block;
+  margin-right: 1em;
+  max-height: 3em;
+  max-width: 3em;
+  img {
+    width: 100%;
+  }
+}
+/* copyright */
+#section-footer .copyright {
+  color: #aaa;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 2em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SIDEBAR */
+/* _________________________________________________ */
+article.node-blog.node-teaser nav.links.node-links ul {
+  padding-left: 0;
+}
+
+
+
+
+@import "slider";
+
+
+
+/* News aggregators */
+#aggregator {
+  padding: 2em 1em;
+  .feed-item {
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3.5em;
+  }
+  @include mq(tablet) {
+    .feed-item-title {
+      font-size: 2em;
+      margin-bottom: 0.75em;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* $CSS3 */
+.transition {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}

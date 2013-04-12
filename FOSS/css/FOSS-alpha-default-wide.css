@@ -24,6 +24,14 @@ ________________________________________________________________________*/
   		}
 	}
 
+/* $Projects Content
+________________________________________________________________________*/
+    .view-projects{
+        float: left;
+        width: 100%;
+        padding-right: 5%;
+    }
+
 /* $News Content
 ________________________________________________________________________*/
      #aggregator{
@@ -39,26 +47,31 @@ ________________________________________________________________________*/
      	width: 70%;
      	padding-right: 5%;
      }
-     
-/* $Featured Slider
+
+ /* $Featured Slider
 ________________________________________________________________________*/
     #block-views-featured-slider-block img{
         width: 800px;
         height: 400px;
     }
 
-    .views-field-field-slider-image{
-        z-index: 1;
-    }
+/* $Featured Events Block
+________________________________________________________________________*/
+    #block-views-featured-events-block{
+        float: left;
+        width: 80%;
+        padding-right: 5%;
+        border-top: 1px solid #000;
+     }
 
-    .views-field-field-body{
-        z-index: 2;
-        margin-top: -200px;
-        color: #FFF;
-        width: 100%;
-        height: 200px;
-        background: #000;
-        opacity: .6;
-        padding-left: 5%;
+/* $Featured Projects Block
+________________________________________________________________________*/
+    #block-views-featured-projects-block{
+        float: left;
+        width: 80%;
+        padding-right: 5%;
+        border-top: 1px solid #000;
+        border-bottom: 1px solid #000;
+        padding-bottom: 40px;
     }
 }

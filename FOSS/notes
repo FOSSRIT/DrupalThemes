@@ -1,0 +1,45 @@
+√ slider view fixed
+	no issues pulling the corret information
+	now to style the thing for the last time
+
+Event content type does not have a default image set up
+fields:
+	title (for drupal)
+	Title (for the site)
+	Date (currently Event Date [field_event_date])
+	Location
+	Registration Link
+	Event Group (tax_voc_7)
+	Event Type (tax_voc_10)
+	Banner Image (field_event_banner_image) ** add default image **
+	Body
+
+Projects content type:
+	title
+	Tagline
+	Project Logo (make)
+	Live Demo
+	Code Source
+	IRC Channel
+	Body
+
+headers (project titles, event titles)
+font-size: 2.25em;
+
+
+project markup (based off of _project)
+article.node-[the content type name]
+	ex. article.node--project
+	padding: 2em 0;
+
+	slogan {
+		margin-bottom: 1.5em;
+	}
+
+	logo {
+		margin-bottom: 1em;
+	}
+
+
+
+set the widths to stuff on the left?
