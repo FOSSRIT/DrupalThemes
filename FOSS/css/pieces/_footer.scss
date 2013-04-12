@@ -1,0 +1,29 @@
+/* footer */
+#zone-postscript { @extend .cf; }
+@include mq(netbook){
+  #region-postscript-first {
+    width: 65%;
+    max-width: 35em;
+    float: left;
+  }
+  #region-postscript-second {
+    width: 30%;
+    float: right;
+  }
+}
+.block-imageblock {
+  display: inline-block;
+  margin-right: 1em;
+  max-height: 3em;
+  max-width: 3em;
+  img {
+    width: 100%;
+  }
+}
+/* copyright */
+#section-footer .copyright {
+  color: #aaa;
+  font-size: 0.8em;
+  text-align: center;
+  margin-top: 2em;
+}

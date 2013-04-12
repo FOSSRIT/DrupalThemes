@@ -1,0 +1,23 @@
+/* SITE BRANDING (logo, site-name) */
+#region-branding, #region-menu { @include mq(tablet) { width: 50%; } }
+#region-branding { @include mq(tablet) { float: left; } }
+#region-menu { @include mq(tablet) { float: right; } }
+.logo-img, .site-name-slogan { display: inline-block; }
+.site-name-slogan {
+  width: 80%;
+  margin-bottom: 0.75em;
+  .site-name {
+    font-size: 1.25em;
+    margin: 0;
+  }
+  h6 {
+    font-family: OpenSansCondensedLight, "Helvetica Neue", Arial, Verdana, sans-serif;
+    font-size: 0.75em;
+    margin: 0.25em 0;
+  }
+}
+.logo-img img {
+  height: 40px;
+  width: 35px;
+  margin-right: 0.5em;
+}

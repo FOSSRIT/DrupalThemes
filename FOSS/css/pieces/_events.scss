@@ -1,0 +1,69 @@
+/**
+ * Events
+ */
+/* events list */
+#region-content .region-content-inner { @extend .cf; }
+@include mq(netbook){
+  #block-views-events-block {
+    width: 65%;
+    float: left;
+  }
+  #node-page-329 {
+    width: 30%;
+    float: right;
+  }
+}
+.events {
+  padding-left: 0;
+  li {
+    list-style-type: none;
+    padding-bottom: 2em;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 3em;
+    &:last-child { margin-bottom: 0; }
+    // event image
+    .views-field-field-event-banner-image {
+      margin-bottom: 0.75em;
+      img {
+        height: 75%;
+        width: 100%;
+      }
+    }
+    // event header
+    .views-field-title {
+      font-size: 1.5em;
+      @include transition(font-size, 0.3s);
+      @include mq(netbook) { font-size: 1.85em; }
+      @include mq(desktop) { font-size: 2.25em; }
+    }
+  }
+}
+/* single page view */
+.node-type-event {
+  @extend .cf;
+  // banner image
+  .field-name-field-event-banner-image img {
+    width: 100%;
+    height: 80%;
+  }
+  // title
+  .field-name-field-event-title {
+    font-size: 1.5em;
+    @include transition(font-size, 0.3s);
+    @include mq(netbook) { font-size: 1.85em; }
+    @include mq(desktop) { font-size: 2.25em; }
+  }
+  // event date
+  .field-name-field-event-date {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  // event type / event group / registration link
+  .field-type-taxonomy-term-reference,
+  .field-name-field-registration-link {
+    margin-bottom: 0.5em;
+  }
+  .field-type-text-with-summary {
+    max-width: 35em;
+  }
+}
