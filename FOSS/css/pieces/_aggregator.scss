@@ -1,0 +1,15 @@
+/* News aggregators */
+#aggregator {
+  padding: 2em 1em;
+  .feed-item {
+    padding-bottom: 2em;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 3.5em;
+  }
+  @include mq(tablet) {
+    .feed-item-title {
+      font-size: 2em;
+      margin-bottom: 0.75em;
+    }
+  }
+}
