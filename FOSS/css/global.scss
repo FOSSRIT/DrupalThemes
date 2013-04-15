@@ -95,7 +95,14 @@ a{
 .right {float: right; }
 .inline, .inline li { display: inline-block; }
 .inline li { margin-right: 1em; }
-.pager { @extend .inline; }
+.pager { 
+  display: block;
+  width: 75%;
+  padding: 0 0 1em 0;
+  margin: 0 auto;
+  text-align: center;
+  @extend .inline;
+}
 .tabs.primary { @extend .inline; }
 
 
@@ -116,17 +123,6 @@ a{
   @extend .container;
 }
 .not-front #zone-preface-wrapper { display: none; }
-
-// partner 
-// --
-// barcamp roc
-// fedora projec
-// interlock
-// everything except the bottom
-
-// sponsors
-// redhat
-// stormfrog
 
 
 /* $HEADER/FOOTER */
@@ -184,15 +180,14 @@ a{
 
 @import "pieces/fossboxers";
 
+@import "pieces/research";
 
-/* SIDEBAR */
-/* _________________________________________________ */
+/* sidebar */
 article.node-blog.node-teaser nav.links.node-links ul {
   padding-left: 0;
 }
 
-
-
+@import "pieces/footer";
 
 @import "pieces/slider";
 

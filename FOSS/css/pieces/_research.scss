@@ -1,0 +1,30 @@
+#node-page-330 {
+	@extend .cf;
+	article {max-width: 35em; }
+	h1 {
+		font-size: 2.25em;
+		margin-bottom: 0;
+	}
+	aside {
+		li {
+			display: inline-block;
+			width: 30%;
+			vertical-align: top;
+			li {
+				display: block;
+				width: 90%;
+				margin-right: 0;
+			}
+		}
+	}
+	dt {
+		display: inline-block;
+		border-bottom: 1px solid;
+		margin-bottom: 1em;
+	}
+	dd {margin: 0; }
+	ul {
+		padding-left: 0;
+		list-style-type: none;
+	}
+}

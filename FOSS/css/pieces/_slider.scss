@@ -9,44 +9,20 @@
 
 	h2.block-title { display: none; }
 
+	.views-field-title {
+		font-size: 2.25em;
+	}
+
 	// this is the div that holds all the "slides"
 	#views_slideshow_cycle_main_slide_test-block {
 		@extend .container;
-
+		
 		#views_slideshow_cycle_teaser_section_slide_test-block {
-			background: #f00;
 			width: 100% !important;
 
-			.views-slideshow-cycle-main-frame-row
-			.views_slideshow_cycle_slide 
-			.views_slideshow_slide 
-			.views-row-2 
-			.views_slideshow_cycle_hidden 
-			.views-row-even
-
-			.views-slideshow-cycle-main-frame-row 
-			.views_slideshow_cycle_slide 
-			.views_slideshow_slide 
-			.views-row-3 
-			.views_slideshow_cycle_hidden 
-			.views-row-odd
-
-			// these are the individual "containers" for each slide
-			.views-slideshow-cycle-main-frame-row-item
-			.views-row 
-			.views-row-0 
-			.views-row-first 
-			.views-row-odd
-			
-			.views-slideshow-cycle-main-frame-row-item 
-			.views-row 
-			.views-row-0 
-			.views-row-first 
-			.views-row-odd
-
+			p {margin-top: 0;}
 			.views_slideshow_cycle_slide {
 				width: 100% !important;
-				background: #0f0;
 
 				// the actual field things we need
 				.views-field-field-event-banner-image img {
@@ -56,6 +32,12 @@
 					@include mq(tablet) { height: 200px !important; }
 					@include mq(netbook) { height: 280px !important; }
 					@include mq(desktop) { height: 340px !important; }
+				}
+				.views-field-title {
+					padding: 0.5em 1em 0.25em;
+				}
+				.views-field-body {
+					padding: 0 2.25em;
 				}
 			}
 		}
