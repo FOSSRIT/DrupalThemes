@@ -1,3 +1,18 @@
+/* projects page view (all) */
+#block-views-projects-block{
+  tr {
+    vertical-align: top;
+    max-height: 43.75em;
+    overflow: hidden;
+  }
+  td {
+    padding-bottom: 3em;
+  }
+  .views-field-title {
+    font-size: 2.25em;
+  }
+}
+
 /* project page */
 article.node--project{
   padding: 2em 0;

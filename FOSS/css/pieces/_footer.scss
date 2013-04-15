@@ -11,15 +11,53 @@
     float: right;
   }
 }
-.block-imageblock {
-  display: inline-block;
-  margin-right: 1em;
-  max-height: 3em;
-  max-width: 3em;
+
+/* about the FOSS box */
+#block-block-8 {
+  margin-bottom: 1.3125em;
+}
+/* social media icons */
+#block-block-11 {
+  h2 {
+    margin-top: 0;
+  }
+  ul {
+    margin-top: 0;
+    padding: 0;
+  }
   img {
-    width: 100%;
+    max-height: 3em;
+    max-width: 3em;
   }
 }
+
+/* partners/sponsors */
+#region-footer-fourth,
+#region-footer-second {text-align: center; }
+.partners, .sponsors
+{
+  padding-left: 0;
+  li {
+    max-height: 4em;
+    img {
+      height: 3em;
+      vertical-align: bottom;
+    }
+  }
+}
+.partners {
+  &:nth-child(1) img {width: 6em; }
+  &:nth-child(2) img {width: 16em; }
+  &:nth-child(3) img {width: 10em; }
+  &:nth-child(4) img {width: 3em; }
+  &:nth-child(5) img {width: 4em; }
+  &:nth-child(6) img {width: 3em; }
+}
+.sponsors {
+  &:nth-child(1) img {width: 4em; }
+  &:nth-child(2) img {width: 12em; }
+}
+
 /* copyright */
 #section-footer .copyright {
   color: #aaa;
