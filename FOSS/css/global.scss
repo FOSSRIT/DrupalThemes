@@ -32,6 +32,10 @@
 // 60 = 3.75em
 // 72 = 4.5em
 
+// scp -r foo your_username@remotehost.edu:/some/remote/directory/bar
+// scp style.css ler2604@shell01off01.rit.edu:/../w-foss/DrupalThemes/FOSS/css
+// scp global.css ler2604@shell01off01.rit.edu:../w-foss/DrupalThemes/FOSS/css
+
 
 // media queries
 @mixin mq($breakpoint)
