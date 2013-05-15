@@ -45,3 +45,19 @@
 		}
 	}
 }
+// the slider controls
+.views-slideshow-controls-bottom {
+	@extend .container;
+	background-color: #111;
+	border-top: 1px solid $green;
+  text-align: center;
+  span {
+	  padding: 0.25em 5%;
+	  display: inline-block;
+		a {
+			text-decoration: none !important;
+			@include transition(color, 0.3s);
+			&:hover {color: #fff;}
+		}
+	}
+}
